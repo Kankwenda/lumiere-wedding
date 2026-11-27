@@ -1,0 +1,1 @@
+ALTER TABLE public.invitations ADD COLUMN IF NOT EXISTS location text NOT NULL DEFAULT '';
